@@ -314,11 +314,11 @@ function mousePressed(){
 function keyPressed(){
 	if(gameState==1) {
 		if (keyCode== 68) {//d
-			p1.xvel=p1.stats.speed *3;
+			p1.xvel=p1.stats.speed;
 			step.loop();
 		}
 		else if (keyCode == 65) {//a
-			p1.xvel=-p1.stats.speed *3;
+			p1.xvel=-p1.stats.speed;
 			step.loop();
 		}
 		else if (keyCode ==83) {//s
